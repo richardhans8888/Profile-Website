@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="about.css">
+    <title>My Interests</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Josefin Sans', sans-serif;
+            background-color: black; /* Set the background color to black */
+            color: white; /* Set the text color to white for better readability */
+        }
+        .about {
+            padding: 20px;
+            text-align: center; /* Center text in the section */
+        }
+        .main {
+            text-align: center; /* Center text */
+            margin-bottom: 20px; /* Space below the text */
+        }
+        .about-text {
+            margin-bottom: 20px; /* Space between text and images */
+        }
+        .image-gallery {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* 2 columns */
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .image-gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px; /* Optional: to make images rounded */
+        }
+        .back-button {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: white;
+            color: black;
+            padding: 10px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .back-button:hover {
+            background: lightgrey; /* Optional hover effect */
+        }
+    </style>
+</head>
+<body>
+    <section class="about">
+        <a href="index.html" class="back-button">Back to Main Page</a> <!-- Moved to top right corner -->
+        <div class="main">
+            <div class="about-text">
+                <h1>My Interests</h1>
+                <h5>Passionate Explorer</h5>
+                <p>I enjoy playing jetski and exploring beautiful locations around Java, Sumatera, and Lampung. 
+                    Additionally, I actively participate in various volunteering activities, contributing to community development and support.
+                </p>
+            </div>
+        </div>
+        <div class="image-gallery">
+            <img src="WhatsApp Image 2024-10-04 at 16.42.42.jpeg" alt="Interest 1">
+            <img src="WhatsApp Image 2024-10-04 at 16.42.43.jpeg" alt="Interest 2">
+            <img src="WhatsApp Image 2024-10-04 at 16.42.42 (1).jpeg" alt="Interest 3">
+            <img src="WhatsApp Image 2024-10-04 at 16.42.44.jpeg" alt="Interest 4">
+        </div>
+    </section>
+</body>
+</html>
